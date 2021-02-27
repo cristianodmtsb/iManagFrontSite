@@ -1,10 +1,10 @@
 import axios from "axios";
 
-import { envKeys } from "../../../config";
+import { envKeys } from "config";
 
 import HttpError from "../HttpError";
 import buildResponse from "./buildResponse";
-import { Maybe } from "../../functors";
+import { Maybe } from "utils/functors";
 
 const Axios = axios.create({
   baseURL: envKeys.apiUrl(),

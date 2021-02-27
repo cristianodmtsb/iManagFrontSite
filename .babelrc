@@ -12,7 +12,8 @@
           "styles": "./src/styles",
           "utils": "./src/utils",
           "domain": "./src/domain",
-          "services": "./src/services"
+          "services": "./src/services",
+          "config": "./src/config"
         }
       }
     ],

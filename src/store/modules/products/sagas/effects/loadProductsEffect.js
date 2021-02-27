@@ -1,7 +1,7 @@
 import { put, call } from "redux-saga/effects";
 
 import { request } from "utils/http";
-import { loadProductsQuery } from "../../repository";
+import loadProductsQuery from "../../repository/loadProductsQuery";
 import actions from "../../actions";
 
 export function* loadProductsEffect() {
@@ -13,3 +13,4 @@ export function* loadProductsEffect() {
     console.log("products error:", error);
   }
 }
+export default loadProductsEffect;
