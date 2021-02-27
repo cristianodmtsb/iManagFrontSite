@@ -1,4 +1,4 @@
-import Switch from "../../../../utils/functors/Switch";
+import Switch from "utils/functors/Switch";
 
 import INITIAL_STATE from "../state";
 import Types from "../actions/actionTypes";
